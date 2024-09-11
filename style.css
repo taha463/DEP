@@ -1,0 +1,599 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    height:40rem;
+    background-color:rgba(245,121,66,255);
+}
+.header .container1 {
+    display:flex;
+    justify-content: center;
+   transform:translateY(1.3rem);
+}
+.container1 a{
+    color:black;
+    margin-left:10rem;
+    text-decoration:none;
+   font-family: arial;
+   font-size:14px;
+   position:relative;
+}
+.container1 a:hover{
+    color:rgb(255, 243, 243);
+}
+
+.container1 a::before{
+    width:0;
+    transition:all.5s;
+    left:0;
+    bottom:-3px;
+    content:"";
+    height:1px;
+    background: black;
+    position: absolute;
+}
+.container1 a:hover::before{
+    width:100%;
+}
+.img1{
+    width:15rem;
+    border-radius:50%;
+    margin-left:18rem;
+    transform:translateY(11rem);
+}
+
+#intro{
+    font-family: arial;
+    font-weight: bold;
+    font-size:37px;
+    margin-left:40rem;
+}
+hr{
+    color:black;
+    width:80%;
+    margin-left:10rem;
+    margin-top:3rem;
+}
+.student{
+    font-size:19px;
+    font-weight: bold;
+}
+.mid{
+    transform:translateY(4rem);
+    height:40rem;
+}
+.name{
+    text-align: center;
+    font-family:arial;
+    font-size:26px;
+    font-weight:bold;
+}
+#pf{
+    font-family:arial;
+    font-size:24px;
+    font-weight:bold;
+    margin-left:11rem;
+    margin-top:5rem;
+}
+
+#exp{
+    font-family:arial;
+    font-weight: lighter;
+    font-size:20px;
+    margin-left:23rem;
+    margin-top:5rem;
+}
+#edu{
+    font-family:arial;
+    font-size:24px;
+    font-weight:bold;
+    margin-left:11rem;
+    margin-top:5rem;
+}
+#inf{
+    font-family:arial;
+    font-weight: lighter;
+    font-size:20px;
+    margin-left:23rem;
+    margin-top:5rem;
+}
+.mid1{
+    transform:translateY(6rem);
+    height:40rem;
+}
+.name1{
+    text-align:center;
+    font-family:arial;
+    font-size:26px;
+    font-weight:bold;
+}
+.container2{
+    display:flex;
+    flex-direction:row;  
+    gap:6rem;
+    transform: translateY(3rem);
+}
+.container3{
+    display:flex;
+    width:20rem;
+    height:26rem;
+    border:1px solid #e0e0e0;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-top:4rem;
+    margin-left:7rem;
+}
+.img2{
+    width:20rem;
+    height:13rem;
+}
+.button1{
+    background-color: rgb(254, 128, 74);
+    height:2.6rem;
+    width:7.3rem;
+    font-weight: bold;
+    margin-left:-14rem;
+    margin-top:11.4rem;
+}
+.button1:hover{
+background-color: white;
+}
+.pa1{
+       margin-top:17rem;
+       margin-left:-10rem;
+       font-family: arial;
+       font-size: 13px;
+}
+.container4{
+    display:flex;
+    width:20rem;
+    height:26rem;
+    border:1px solid #e0e0e0;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+   margin-top:4rem;
+   margin-left:5rem;
+}
+.img3{
+    width:20rem;
+    height:13rem;
+}
+.button2{
+    background-color: rgb(254, 128, 74);
+    height:2.6rem;
+    width:7.3rem;
+    font-weight: bold;
+    margin-left:-14rem;
+    margin-top:11.4rem;
+}
+.button2:hover{
+background-color: white;
+}
+.pa2{
+       margin-top:17rem;
+       margin-left:-11rem;
+       font-family: arial;
+       font-size: 13px;
+}
+.container5{
+    display:flex;
+    width:20rem;
+    height:26rem;
+    border:1px solid #e0e0e0;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+   margin-top:4rem;
+   margin-left:5rem;
+}
+.img4{
+    width:20rem;
+    height:13rem;
+}
+.button3{
+    background-color: rgb(254, 128, 74);
+    height:2.6rem;
+    width:7.3rem;
+    font-weight: bold;
+    margin-left:-14rem;
+    margin-top:11.4rem;
+}
+.button3:hover{
+background-color: white;
+}
+.pa3{
+       margin-top:17rem;
+       margin-left:-10rem;
+       font-family: arial;
+       font-size: 13px;
+}
+.mid2{
+    transform:translateY(6rem);
+    height:24rem;  
+}
+.name2{
+    text-align:center;
+    font-family:arial;
+    font-size:26px;
+    font-weight:bold;  
+}
+.container10{   
+    display:flex;
+    flex-direction:row;  
+}
+.container6{
+    display:flex;
+    width:8rem;
+    border:1px solid #e0e0e0 ;
+    height:2.6rem;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-left:10rem;
+    margin-top:5rem;
+    background-color:rgb(255, 186, 199);
+}
+.sk1{
+    position: relative;
+    right:0.3rem;
+    transform:translateY(0.6rem);
+    
+    
+}
+.li{
+    transform:translateY(0.5rem);
+    margin-left:0.2rem;
+}
+.container7{
+    display:flex;
+    width:11rem;
+    border:1px solid #e0e0e0 ;
+    height:2.6rem;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-left:10rem;
+    margin-top:5rem;
+    background-color: rgb(255, 186, 199);
+}
+.sk2{
+    position: relative;
+    right:0.3rem;
+    transform:translateY(0.6rem);
+}
+ .li1{
+    transform:translateY(0.6rem);
+    margin-left:0.3rem;
+}
+.container8{
+    display:flex;
+    width:13rem;
+    border:1px solid #e0e0e0 ;
+    height:2.6rem;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-left:14rem;
+    margin-top:5rem;
+    background-color: rgb(255, 186, 199);
+}
+.sk3{
+    position: relative;
+    right:0.3rem;
+   transform:translateY(0.6rem);
+}
+ .li2{
+    transform:translateY(0.6rem);
+    margin-left:0.2rem;
+}
+.container9{
+    display:flex;
+    width:6rem;
+    border:1px solid #e0e0e0 ;
+    height:2.6rem;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-left:14rem;
+    margin-top:5rem;
+    background-color: rgb(255, 186, 199);
+}
+.sk4{
+   transform:translateY(0.6rem);
+}
+ .li3{
+    transform:translateY(0.6rem);
+    margin-left:0.5rem;
+}
+.mid3{
+    transform:translateY(6rem);
+    height:35rem;  
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(karl-solano-0-cTJC7nAz0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.name3{
+    text-align:center;
+    font-family:arial;
+    font-size:33px;
+    font-weight:bolder; 
+    transform:translateY(4rem);
+    color:white;
+}
+.p5{
+    font-family: arial;
+    font-weight: lighter;
+    font-size:27px;
+    margin-left:20rem;
+    color:rgb(238, 238, 238);
+    margin-top:12rem;
+}
+.mid4{
+    transform:translateY(6rem);
+    height:24rem;  
+}
+
+.name4{
+    text-align:center;
+    font-family:arial;
+    font-size:33px;
+    font-weight:bold; 
+    transform:translateY(4rem);
+}
+.container15{   
+    display:flex;
+    flex-direction:row;  
+    transform:translateY(6rem);
+    gap:15rem;
+}
+.container16{
+    display:flex;
+    width:15rem;
+    border:1px solid #e0e0e0 ;
+    height:2.6rem;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-left:22rem;
+    margin-top:5rem;
+    background-color:rgb(255, 186, 199);
+}
+.sk15{
+    position: relative;
+    right:0.3rem;
+    transform:translateY(0.6rem);
+    text-decoration: none;
+    color:black;
+}
+.li15{
+    transform:translateY(0.5rem);
+    margin-left:0.2rem;
+}
+.container17{
+    display:flex;
+    width:20rem;
+    border:1px solid #e0e0e0 ;
+    height:2.6rem;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    margin-left:10rem;
+    margin-top:5rem;
+    background-color: rgb(255, 186, 199);
+}
+.sk16{
+    position: relative;
+    right:0.3rem;
+    transform:translateY(0.2rem);
+    text-decoration: none;
+    color:black;
+}
+ .li16{
+    transform:translateY(0.6rem);
+    margin-left:0.3rem;
+}
+.footer{
+    transform:translateY(3rem);
+    height:5rem;
+}
+.container18{
+    height:5rem;
+    display:flex;
+    justify-content:center;
+    border:1px solid #e0e0e0 ;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    background-color: rgb(0, 166, 255);
+}
+.text1{
+    color:rgb(255, 255, 255);
+    font-family:arial;
+    font-weight: lighter;
+    font-size:medium;
+    padding-top:2rem;
+}
+
+@media screen and (max-width:1255px) {
+    .container1 a{
+        color:black;
+        margin-left:8rem;
+        text-decoration:none;
+       font-family: arial;
+       font-size:12px;
+    }
+    .container1 a::before{
+        width:0;
+        transition:all.5s;
+        left:0;
+        bottom:-3px;
+        content:"";
+        height:1px;
+        background: black;
+        position: absolute;
+    }
+    .container1 a:hover::before{
+        width:98%;
+    }
+}
+@media screen and (max-width:1050px) {
+    .container1 a{
+        color:black;
+        margin-left:7rem;
+        text-decoration:none;
+       font-family: arial;
+       font-size:11px;
+       position:relative;
+    }
+    .container1 a::before{
+        width:0;
+        transition:all.5s;
+        left:0;
+        bottom:-3px;
+        content:"";
+        height:1px;
+        background: black;
+        position: absolute;
+    }
+    .container1 a:hover::before{
+        width:98%;
+    }
+}
+    @media screen and (max-width:905px) {
+        .container1 a{
+            color:black;
+            margin-left:5rem;
+            text-decoration:none;
+           font-family: arial;
+           font-size:10px;
+           position:relative;
+        }
+        .container1 a::before{
+            width:0;
+            transition:all.5s;
+            left:0;
+            bottom:-3px;
+            content:"";
+            height:1px;
+            background: black;
+            position: absolute;
+        }
+        .container1 a:hover::before{
+            width:97%;
+        }
+}
+@media screen and (max-width:690px) {
+    .container1 a{
+        color:black;
+        margin-left:3rem;
+        text-decoration:none;
+       font-family: arial;
+       font-size:10px;
+       position:relative;
+    }
+    .container1 a::before{
+        width:0;
+        transition:all.5s;
+        left:0;
+        bottom:-3px;
+        content:"";
+        height:1px;
+        background: black;
+        position: absolute;
+    }
+    .container1 a:hover::before{
+        width:96%;
+    }
+}
+@media screen and (max-width:520px) {
+    .container1 a{
+        color:black;
+        margin-left:1.3rem;
+        text-decoration:none;
+       font-family: arial;
+       font-size:9px;
+       position:relative;
+    }
+    .container1 a::before{
+        width:0;
+        transition:all.5s;
+        left:0;
+        bottom:-3px;
+        content:"";
+        height:1px;
+        background: black;
+        position: absolute;
+    }
+    .container1 a:hover::before{
+        width:95%;
+    }
+}
+
+@media screen and (min-width:1150px) and (max-width:1350px){
+#intro{
+    font-family: arial;
+    font-weight: bold;
+    font-size:38px;
+    margin-left:38rem;
+    
+}
+}
+@media screen and (min-width:1011px) and (max-width:1150px){
+    #intro{
+        font-family: arial;
+        font-weight: bold;
+        font-size:32px;
+        margin-left:34rem;
+        
+    }
+    }
+    @media screen and (min-width:900px) and (max-width:1020px){
+        #intro{
+            font-family: arial;
+            font-weight: bold;
+            font-size:28px;
+            margin-left:30rem;
+            
+        }
+        } 
+        @media screen and (min-width:755px) and (max-width:899px){
+            #intro{
+                font-family: arial;
+                font-weight: bold;
+                font-size:24px;
+                margin-left:24rem;
+                
+            }
+            } 
+            @media screen and (min-width:530px) and (max-width:755px){
+                #intro{
+                    font-family: arial;
+                    font-weight: bold;
+                    font-size:18px;
+                    margin-left:17rem;
+                }
+                } 
+                @media screen and (min-width:300px) and (max-width:530px){
+                    #intro{
+                        font-family: arial;
+                        font-weight: bold;
+                        font-size:11px;
+                        margin-left:11rem;
+                        margin-top:6.5rem;
+                        width:100%;
+                    }
+                    } 
+
+                @media screen and (min-width:530px) and (max-width:754px){
+                .img1{
+                    width:14rem;
+                    border-radius:50%;
+                    margin-left:6rem;
+                    transform:translateY(11rem);
+                }
+            }
+            @media screen and (min-width:300px) and (max-width:530px){
+                .img1{
+                    width:7rem;
+                    border-radius:50%;
+                    margin-left:2rem;
+                    transform:translateY(11rem);
+                }
+            }  
+
+                @media screen and (min-width:530px) and (max-width:754px){
+                .student{
+                    font-size:14px;
+                    font-weight: bold;
+                }
+            }
+            @media screen and (min-width:300px) and (max-width:530px){
+                .student{
+                    font-size:10px;
+                    font-weight: bold;
+                }
+            }
