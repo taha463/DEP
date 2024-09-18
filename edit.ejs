@@ -1,0 +1,24 @@
+<!-- views/edit.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Post</title>
+  <link rel="stylesheet" href="/style.css">
+  <base href="/style.css">
+</head>
+<body>
+  <h1>Edit Post</h1>
+  <form action="/posts/<%= post._id %>?_method=PUT" method="POST">
+    <label for="title">Title</label>
+    <input type="text" name="post[title]" id="title" value="<%= post.title %>" required>
+
+    <label for="content">Content</label>
+    <textarea name="post[content]" id="content" required><%= post.content %></textarea>
+
+    <button type="submit">Update Post</button>
+  </form>
+  <a href="/posts/<%= post._id %>">Cancel</a>
+</body>
+</html>
