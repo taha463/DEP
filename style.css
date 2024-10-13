@@ -1,54 +1,68 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: #f8f9fa;
     margin: 0;
-    padding: 20px;
-    background-color:lightcoral;
-  }
-  
-  h1 {
-    color: #c82a2a;
-  }
-  
-  .post {
-    background: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the form and welcome section */
+.signin-container {
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Form Section */
+.form-section {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-success {
+    border-radius: 30px;
     padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #666;
-  }
-  
-  form {
-    margin-bottom: 20px;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 50%;
-    padding: 8px;
-    margin-bottom: 10px;
-    
-  }
-  .text1{
-    width: 40%;
-    margin-left:2rem;
-  }
-  
-  button {
-    background: #333;
+}
+
+/* Social Icons */
+.social-icons a {
     color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: #555;
-  }
+    background-color: #6c757d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #495057;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background: linear-gradient(135deg, #28a745, #38c172);
+    color: #fff;
+    padding: 40px;
+}
+
+.welcome-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup-link {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 20px;
+}
